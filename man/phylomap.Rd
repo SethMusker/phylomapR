@@ -9,12 +9,12 @@ phylomap(tree, data, crs = 4326)
 \arguments{
 \item{tree}{Phylogenetic tree of class `phylo`.}
 
-\item{data}{A object of class `data.frame` or `matrix` with coordinates of the tips in the tree in columns 'lon' and 'lat' and rownames = tip labels}
+\item{data}{An object of class `data.frame` or `matrix` with coordinates of the tips in the tree in columns 'lon' and 'lat' and rownames = tip labels}
 
 \item{crs}{The coordinate reference system of the lon and lat data. Default is 4326, the EPSG code for World Geodetic System 1984. See https://epsg.io/4326.}
 }
 \value{
-an `sfnetwork` object.
+An `sfnetwork` object.
 }
 \description{
 This function takes a phylogeny object (class phylo) and the geographical
